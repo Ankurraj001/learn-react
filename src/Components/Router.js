@@ -3,11 +3,12 @@ import { useRoutes} from 'react-router-dom';
 import ReadFile from './ReadFile';
 import About from './About';
 import Data from './Data';
+import Table from './Table';
 
 
 const Router = () => {
     const routes = useRoutes([
-        { path: '/', element: <Data /> },
+        { path: '/', element: <Table /> },
         { path: 'about', element: <About /> },
     ]);
 
