@@ -9,7 +9,6 @@ export const store = configureStore({
     counter: counterReducer,
     display: displaySlice,
     [pokemonApi.reducerPath]: pokemonApi.reducer,
-    [pokemonApi.reducerPath]: pokemonApi.reducer,
   },
 
   middleware: (getDefaultMiddleware) =>
