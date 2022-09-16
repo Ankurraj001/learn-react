@@ -1,0 +1,13 @@
+/* .MuiTabs-indicator {
+    width: 62px !important;
+    left: 62px !important
+} */
+
+.indicator {
+    position: absolute;
+    height: 2px;
+    background-color: red;
+    top: 41px;
+    left: 26px;
+    width: 70px;
+}
