@@ -1,10 +1,18 @@
 import './App.css';
-import SidePanel from './Components/SidePanel';
+import { store } from './store/store'
+import { Provider } from 'react-redux'
+import DisplayData from './Components/DisplayData';
+import { Counter } from './Components/Counter';
+import Pokemon from './Components/Pokemon';
 
 function App() {
   return (
     <div className="App">
-      <SidePanel />
+      <Provider store={store}>
+        <DisplayData />
+        <Counter />
+        <Pokemon />
+      </Provider>
     </div>
   );
 }
