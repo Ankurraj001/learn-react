@@ -13,7 +13,6 @@ function App() {
         <DisplayData />
         <Counter />
         <Pokemon />
-        <Button component="label">Download <input hidden accept="image/*" multiple type="file" /></Button>
       </Provider>
     </div>
   );
