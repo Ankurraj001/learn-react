@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import DisplayData from './Components/DisplayData';
 import { Counter } from './Components/Counter';
 import Pokemon from './Components/Pokemon';
+import { Button } from '@mui/material';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <DisplayData />
         <Counter />
         <Pokemon />
+        <Button component="label">Download <input hidden accept="image/*" multiple type="file" /></Button>
       </Provider>
     </div>
   );
